@@ -5,12 +5,12 @@ name = "pypi"
 
 [packages]
 requests = "*"
-aiohttp = "*"
+aiohttp = "3.7.4.post0"
 cchardet = "*"
 aiodns = "*"
 black = "*"
 
 [dev-packages]
-
+aiohttp = "4.0.0a1"
 [requires]
-python_version = "3.10"
+python_version = "3.7+"
