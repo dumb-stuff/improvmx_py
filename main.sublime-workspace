@@ -1,0 +1,646 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"header",
+				"headers=dict"
+			],
+			[
+				"Token",
+				"TokenError"
+			],
+			[
+				"No",
+				"NoToken"
+			],
+			[
+				"Wro",
+				"WrongPatternToken"
+			],
+			[
+				"fun",
+				"function_with_name"
+			],
+			[
+				"mets",
+				"metaserver"
+			],
+			[
+				"webb",
+				"webbrowser.open"
+			],
+			[
+				"web",
+				"webbrowser"
+			],
+			[
+				"re",
+				"replaced"
+			],
+			[
+				"read",
+				"read_messages"
+			],
+			[
+				"he",
+				"headerticket"
+			],
+			[
+				"head",
+				"headerticket"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"Ed",
+				"EditHTML"
+			],
+			[
+				"e",
+				"EditHTML"
+			],
+			[
+				"Gi",
+				"GiveWrongTypeOfArgument"
+			],
+			[
+				"G",
+				"GiveWrongTypeOfArgument"
+			],
+			[
+				"app",
+				"app.js\",\"w"
+			],
+			[
+				"open",
+				"open(file)"
+			],
+			[
+				"Edit",
+				"EditAppJS"
+			],
+			[
+				"edit",
+				"editappjs"
+			],
+			[
+				"r",
+				"requests.get"
+			],
+			[
+				"aio",
+				"aiohttp.Session"
+			],
+			[
+				"asy",
+				"async function"
+			],
+			[
+				"__",
+				"__name__ == '__main__':"
+			],
+			[
+				"subpr",
+				"subprocess.check_output"
+			],
+			[
+				"subpro",
+				"subprocess.call"
+			],
+			[
+				"subp",
+				"subprocess.call"
+			],
+			[
+				"shell",
+				"shell=True"
+			],
+			[
+				"stdout",
+				"stdout=subprocess.PIPE"
+			],
+			[
+				"chann",
+				"channel_id"
+			],
+			[
+				"ch",
+				"channel_id"
+			],
+			[
+				"ays",
+				"asyncio"
+			],
+			[
+				"dis",
+				"display_name"
+			],
+			[
+				"pau",
+				"pauset"
+			],
+			[
+				"paus",
+				"pauset"
+			],
+			[
+				"console",
+				"console_scripts':'"
+			],
+			[
+				"keep",
+				"keep_alive()"
+			],
+			[
+				"comm",
+				"command"
+			],
+			[
+				"init",
+				"initialized"
+			],
+			[
+				"shutdown",
+				"shutdown(self, ctx"
+			],
+			[
+				"ca",
+				"capture_output=…"
+			],
+			[
+				"cap",
+				"capture_output=…"
+			],
+			[
+				"pla",
+				"play()"
+			],
+			[
+				"rem",
+				"remaining_time"
+			],
+			[
+				"sen",
+				"sendsp"
+			],
+			[
+				"public",
+				"publickey\": \""
+			],
+			[
+				"jso",
+				"json.loads"
+			],
+			[
+				"keystr",
+				"keystore.json"
+			],
+			[
+				"key",
+				"keystore"
+			],
+			[
+				"enc",
+				"encode(),"
+			],
+			[
+				"__nam",
+				"__name__ == \"__main__\":"
+			],
+			[
+				"Spotif",
+				"SpotifyCredential"
+			],
+			[
+				"config",
+				"config.json"
+			],
+			[
+				"Fi",
+				"FileNotFoundError:"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"path",
+				"pathosu"
+			],
+			[
+				"arg",
+				"argumentList"
+			],
+			[
+				"no",
+				"not"
+			],
+			[
+				"Err",
+				"ErrorToGetStatus\ttype ⟠"
+			],
+			[
+				"add",
+				"add_header(…)\tfunction ⟠"
+			],
+			[
+				"url",
+				"urllib3\tmodule ⟠"
+			],
+			[
+				"asyn",
+				"asyncio"
+			],
+			[
+				"get",
+				"get_balance"
+			],
+			[
+				"person",
+				"personlb"
+			],
+			[
+				"Toa",
+				"TotalPhys"
+			],
+			[
+				"tell",
+				"tell user\t2★ pro ⟠"
+			],
+			[
+				"drive",
+				"drive.append\t4★ pro ⟠"
+			],
+			[
+				"Ex",
+				"Exception as e:\t4★ pro ⟠"
+			],
+			[
+				"pipe",
+				"pipeinput"
+			],
+			[
+				"pi",
+				"pipeinput\t⟠"
+			],
+			[
+				"pip",
+				"pipea\tstr ⟠"
+			],
+			[
+				"exit",
+				"exit(1)\t6★ pro ⟠"
+			],
+			[
+				"parti",
+				"partition\t⟠"
+			],
+			[
+				"client",
+				"client_id\t⟠"
+			],
+			[
+				"date",
+				"datetime.datetime\t8★ pro ⟠"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Code Folding: Fold"
+			],
+			[
+				"intere",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Python Mooping/AppData/Roaming/Sublime Text 3/Packages/User/Node.js.sublime-build",
+		"/E/Meta-Search/setup.py",
+		"/E/Meta-Search/MANIFEST.in",
+		"/E/Meta-Search/README.md",
+		"/E/Meta-Search/pypi support one.md",
+		"/E/Meta-Search/metasearch/__init__.py",
+		"/E/Meta-Search/.git/COMMIT_EDITMSG",
+		"/E/Meta-Search/Lib/site-packages/pip/_internal/cli/base_command.py",
+		"/E/ticket.py",
+		"/E/Introduction-website/templates/500.html",
+		"/E/ticket_configs.txt",
+		"/C/Users/Python Mooping/Desktop/Osu!rx/osu!rx.exe.config",
+		"/E/Introduction-website/inweb/setup.py",
+		"/E/Introduction-website/inweb/inweb/editappjs.py",
+		"/E/Introduction-website/inweb/inweb/original/index.css",
+		"/E/Introduction-website/inweb/inweb/__init__.py",
+		"/C/Users/Python Mooping/Desktop/Osu!rx/config.ini",
+		"/C/Users/Python Mooping/Desktop/Osu!rx/osu!manager.ini",
+		"/C/Users/Python Mooping/AppData/Local/Temp/Rar$DIb4816.5619/Read ME Before.txt",
+		"/C/Users/Python Mooping/AppData/Local/Temp/Rar$DIa8028.10814/Read ME Before.txt",
+		"/E/Introduction-website/inweb/inweb/editindexhtml.py",
+		"/E/chat.py",
+		"/C/Users/Python Mooping/Downloads/stress/stressato_default.html",
+		"/C/Users/Python Mooping/Downloads/stress/app.js",
+		"/C/Users/Python Mooping/Downloads/stress/index.css",
+		"/C/Users/Python Mooping/Downloads/stress/particles.js",
+		"/C/Users/Python Mooping/Downloads/stress/index.js",
+		"/C/Users/Python Mooping/AppData/Local/Programs/Python/Python310/Lib/asyncio/runners.py",
+		"/C/Users/Python Mooping/AppData/Local/Programs/Python/Python310/Lib/asyncio/__init__.py",
+		"/C/Users/Python Mooping/AppData/Local/Programs/Python/Python310/Lib/asyncio/events.py",
+		"/E/a.py",
+		"/C/Users/Python Mooping/Downloads/ton-ivfx-nuk.htm",
+		"/C/Users/Python Mooping/AppData/Local/Programs/Python/Python310/Lib/site-packages/discord/__init__.py",
+		"/C/Users/Python Mooping/AppData/Local/Programs/Python/Python310/Lib/site-packages/discord/message.py",
+		"/C/Users/Python Mooping/AppData/Local/Programs/Python/Python310/Lib/site-packages/discord/__main__.py",
+		"/E/data.json",
+		"/C/Users/Python Mooping/Desktop/vswhitty123/mods/readme.txt",
+		"/C/Users/Python Mooping/Desktop/vswhitty123/changelog.txt",
+		"/C/Users/Python Mooping/Desktop/vswhitty123/do NOT readme.txt",
+		"/E/Music-player/setup.py",
+		"/C/Users/Python Mooping/Desktop/vswhitty123/mods/modList.txt",
+		"/C/Users/Python Mooping/Desktop/vswhitty123/mods/introMod/_append/data/introText.txt",
+		"/E/Music-player/musicplayergui/__init__.py",
+		"/E/Music-player/dist/musicplayergui-1.5-py3-none-any.whl",
+		"/E/Music-player/dist/musicplayergui-1.5.tar.gz",
+		"/E/Music-player/README.md",
+		"/E/Music-player/music.py",
+		"/E/Music-player/msuci.py",
+		"/C/Users/Python Mooping/Desktop/danser-0.4.0b-win/settings.json",
+		"/E/dm.py",
+		"/E/music/music.py",
+		"/C/Users/Python Mooping/Desktop/pypigit/setup.py",
+		"/C/Users/Python Mooping/Desktop/pypigit/README.md",
+		"/E/music.py",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/builddoc.py",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/.circleci/config.yml",
+		"/C/Users/Python Mooping/Desktop/osr2mp4/src/ppapp.py",
+		"/C/Users/Python Mooping/Desktop/osr2mp4/src/setup.py",
+		"/C/Users/Python Mooping/Desktop/pypigit/pypiapijson/__init__.py",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/requirements.txt",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/README.md",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/BuildDocumentation.py",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/miraculous/__init__.py",
+		"/C/Users/Python Mooping/AppData/Local/osu!/Songs/801977 Andrew Wrangell - Rush E/Andrew Wrangell - Rush E (Namo) [Easy].osu",
+		"/C/Users/Python Mooping/Desktop/MSOffice.Pro.Plus.2019.v2021.Build.13628.20274.x64/Read me.txt",
+		"/C/Users/Python Mooping/subl",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/.github/workflows/python-publish.yml",
+		"/C/Users/Python Mooping/Desktop/miraculous-1.8/miraculous-1.8/miraculous/__init__.py",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/docs/index.md",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/setup.py",
+		"/C/Users/Python Mooping/Documents/GitHub/D.py-M/miraculous.egg-info/PKG-INFO",
+		"/C/Users/Python Mooping/README.md",
+		"/C/Users/Python Mooping/AppData/Local/Temp/Rar$DIa11768.14620/README.txt",
+		"/C/Users/Python Mooping/Desktop/qwerty.png",
+		"/C/Users/Python Mooping/AppData/Local/Temp/Rar$DIa11768.4602/README.txt",
+		"/C/Users/Python Mooping/AppData/Local/Temp/Rar$DIa5104.11109/README.txt",
+		"/C/Users/Python Mooping/Desktop/miraculous-1.8/miraculous-1.8/setup.py",
+		"/C/Users/Python Mooping/Desktop/miraculous-1.8/miraculous-1.8/README.md",
+		"/C/Users/Python Mooping/Desktop/miraculous-1.8/miraculous-1.8/MusicLession.md",
+		"/C/Users/Python Mooping/Desktop/miraculous-1.8/miraculous-1.8/ThaiLesson.md",
+		"/E/bottest.py",
+		"/C/Users/Python Mooping/Downloads/the_encrypted_mystery.txt",
+		"/C/Users/Python Mooping/imgur.py",
+		"/E/decryptmystery.py",
+		"/E/bad-apple/touhou_bad_apple_v4.5.py",
+		"/C/Users/Python Mooping/Downloads/Susumu Hirasawa - SWITCHED-ON LOTUS (Starrodkirby86) [Real1].osu",
+		"/C/Users/Python Mooping/Desktop/hack tool/assembly inject/mnemdb.json",
+		"/C/Users/Python Mooping/Desktop/Capture.PNG",
+		"/C/Users/Python Mooping/Downloads/120260485-35612380-c2c0-11eb-9863-fd41d1755c6e.png",
+		"/E/bad-apple/touhou_bad_apple_v1.0.py",
+		"/E/pygame/src_py/__init__.py",
+		"/E/pygame/Setup",
+		"/E/pygame/src_c/newbuffer.c",
+		"/C/Users/Python Mooping/Desktop/bot-made-out-from-cogs/prefixes.json",
+		"/E/nodejs/index.js",
+		"/E/csharp_test/something.js",
+		"/C/Users/Python Mooping/Desktop/DM bot/main.py",
+		"/C/Users/Python Mooping/Desktop/Uninstall Edge.cmd",
+		"/C/Users/Python Mooping/Desktop/paino.ahk",
+		"/E/csharp_test/main.cs",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/run.py",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/main.py",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/encrypt.py",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/keystore.json",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/config.json",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/musicbot/bot.py",
+		"/C/Users/Python Mooping/Desktop/Danser/errorlist.py",
+		"/C/Users/Python Mooping/Desktop/Danser/tools/osutosqllite.py",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/bootstrap.py",
+		"/C/Users/Python Mooping/Desktop/MusicBot-master/MusicBot-master/config/i18n/th.json",
+		"/C/Users/Python Mooping/Desktop/Danser/Danserlauncher.py",
+		"/C/Users/Python Mooping/Desktop/danser-0.4.0b-win/danser.db",
+		"/C/Users/Python Mooping/Downloads/ม.2-7.png",
+		"/C/Users/Python Mooping/Downloads/1.1ความรู้พื้นฐานเกี่ยวกับอาชีพ.docx.inex",
+		"/C/Users/Python Mooping/Downloads/1.1ความรู้พื้นฐานเกี่ยวกับอาชีพ.docx",
+		"/C/Users/Python Mooping/Music-bot/mkdocs.yml",
+		"/C/Users/Python Mooping/Music-bot/.git/COMMIT_EDITMSG",
+		"/C/Users/Python Mooping/Music-bot/mkdocs.yaml",
+		"/C/Users/Python Mooping/Desktop/Music-bot/setup.py",
+		"/C/Users/Python Mooping/Desktop/fork repositry/Music-bot/miraculous/__init__.py",
+		"/C/Users/Python Mooping/Desktop/fork repositry/Music-bot/README.md",
+		"/C/Users/Python Mooping/Desktop/fork repositry/Music-bot/main.py",
+		"/C/Users/Python Mooping/Desktop/fork repositry/Music-bot/setup.py",
+		"/C/Users/Python Mooping/Desktop/Music-bot/miraculous/__init__.py",
+		"/C/Users/Python Mooping/Downloads/ahisa - Alexithymia.mp3",
+		"/C/Users/Python Mooping/Desktop/info.py",
+		"/C/Users/Python Mooping/Desktop/Music-bot/Music-bot/setup.py",
+		"/C/Users/Python Mooping/Desktop/Music-bot/Music-bot/miraculous/__init__.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 321.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
