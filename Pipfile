@@ -4,13 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
-aiohttp = "3.7.4"
-cchardet = "*"
-aiodns = "*"
 black = "*"
+aiodns = "*"
+aiohttp = "*"
+requests = "*"
+cchardet = "*"
 
 [dev-packages]
-aiohttp = "4.0.0a1"
+
 [requires]
-python_version = "3.7+"
+python_version = "3.10.0"
