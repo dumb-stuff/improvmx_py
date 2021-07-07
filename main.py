@@ -10,6 +10,7 @@ import aiohttp
 
 import json
 
+import sys
 
 class WrongPatternToken(
 	Exception
@@ -42,6 +43,7 @@ class ServerError(
 
 
 url = "https://api.improvmx.com/v3/"
+global tokenauth
 tokenauth = ""
 
 
@@ -50,13 +52,15 @@ class SetUp(
 ):
 	def __init__(
 		self, 
-		token=None
+		token=None,
+		skipcon=False
 	):
+		global tokenauth
 		if len(
 			tokenauth
 		) != 35 or len(
 		tokenauth
-	) == 0:
+	) == 0 or "sk_" not in token:
 			print(
 				"Adding token"
 			)
@@ -69,6 +73,17 @@ class SetUp(
 					"You have wrong token or You did'nt enter token."
 				)
 			tokenauth = token
+			if skipcon:
+				print(f"Your token is {tokenauth}\n Is this right?")
+				an = input("Please answer\n Acxept answer yes/no\n").lower()
+				if an == "yes":
+					if sys.platform == "win32" or sys.platform == "win64":
+						import os
+						os.system("cls")
+						pass
+					else:
+						import os
+						os.system("clear")
 		else:
 			print(
 				"You already setup token!"
@@ -81,6 +96,7 @@ class Account(
 	def __init__(
 		self
 	):
+		global tokenauth
 		if len(
 			tokenauth
 		) != 35:
@@ -92,6 +108,7 @@ class Account(
 	def GetAccountDetail(
 		self
 	):
+		global tokenauth
 		r = requests.get(
 			f"{url}account",
 			auth=("api", self.token)
@@ -118,6 +135,7 @@ class Domains(
 	def __init__(
 		self
 	):
+		global tokenauth
 		if len(
 			tokenauth
 		) != 35:
@@ -211,6 +229,7 @@ class Aliases(
 	def __init__(
 		self
 	):
+		global tokenauth
 		if len(
 			tokenauth
 		) != 35:
@@ -240,6 +259,7 @@ class CheckResponse(
 		self, 
 		r
 	):
+		global tokenauth
 		if r.status_code == 401:
 			tokenauth = ""
 			raise TokenError("Your token is unusable! Please set new token again.")
