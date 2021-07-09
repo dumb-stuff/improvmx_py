@@ -106,7 +106,7 @@ class Domains(object):
             )
         self.token = tokenauth
 
-    def ListDomains(self, query: str = "", is_active: bool = "", limit=50, page=1):
+    def ListDomains(self, query: str = "", is_active: str = "", limit=50, page=1):
         r = requests.get(
             f"{url}domains?q={query}&is_active={is_active}&limit={limit}&page={page}",
             auth=("api", self.token),
