@@ -21,3 +21,5 @@ When I forget to add .gitignore to my local repository
 ![image](https://user-images.githubusercontent.com/59832159/125052506-3ca0fb80-e0ce-11eb-8d62-9fb8a255e4f7.png)
 ##### Please Enjoy my stupidness at this URL
 https://github.com/dumb-stuff/improvmx_py/commit/28913ca8340355ffd75478c42b5e696fa12e328b
+### DOCUMENTATION!!
+[![Documentation Status](https://readthedocs.org/projects/improvmx-api/badge/?version=latest)](https://improvmx-api.readthedocs.io/en/latest/?badge=latest)
