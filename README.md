@@ -12,3 +12,4 @@ Or Clone this repo and install it by do
  python  setup.py install
  ```
  this repo is development
+###### Also Why I am such an idiot that I forget to add .gitignore D:
