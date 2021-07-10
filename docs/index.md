@@ -11,3 +11,6 @@ So this Documentation will teach you how to use the [module](https://pypi.org/pr
 - [SMTP Credentials](./smtp.md)
 - [FAQS](./faqs.md)
 - [Async Classes and function](./async.md)
+### Keyword Meaning
+- Required is mean This required in order to continue
+- No argument in table mean you use only one argument that is traslated what you need to input

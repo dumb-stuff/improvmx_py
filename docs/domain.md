@@ -251,4 +251,4 @@ It will return true if it is successfully else return false
 ```py
 improvmxpy.Domain().CheckMXDomain()
 ```
-This function will check your dns 
+This function will check your dns configuration on your domain
