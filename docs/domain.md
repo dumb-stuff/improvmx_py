@@ -251,4 +251,47 @@ It will return true if it is successfully else return false
 ```py
 improvmxpy.Domain().CheckMXDomain()
 ```
-This function will check your dns configuration on your domain
+This function will check your dns configuration on your domain it need your domain. Pretty much return something like this
+```json
+{
+  "records": {
+    "provider": "cloudflare",
+    "advanced": true,
+    "dkim1": {
+      "expected": "dkimprovmx1.improvmx.com.",
+      "valid": true,
+      "values": "dkimprovmx1.improvmx.com."
+    },
+    "dkim2": {
+      "expected": "dkimprovmx2.improvmx.com.",
+      "valid": true,
+      "values": "dkimprovmx2.improvmx.com."
+    },
+    "dmarc": {
+      "expected": "v=DMARC1; p=none;",
+      "valid": false,
+      "values": null
+    },
+    "error": null,
+    "mx": {
+      "expected": [
+        "mx1.improvmx.com",
+        "mx2.improvmx.com"
+      ],
+      "valid": true,
+      "values": [
+        "mx2.improvmx.com",
+        "mx1.improvmx.com"
+      ]
+    },
+    "spf": {
+      "expected": "v=spf1 include:someservice.org include:spf.improvmx.com ~all",
+      "valid": false,
+      "values": "v=spf1 include:someservice.org ~all"
+    },
+    "valid": false
+  },
+  "success": true
+}
+```
+[API Documentation Reference](https://improvmx.com/api/#domain-check)
