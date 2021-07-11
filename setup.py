@@ -4,7 +4,7 @@ classifiers = []
  
 setup(
 	name='improvmxpy',
-	version='1',
+	version='1.1',
 	description='A ImprovMX API Wrapper!',
 	long_description=open('README.md').read() + "\n# Help \nPlease go to [Documentation](https://improvmxpy.tk)",
 	long_description_content_type='text/markdown',

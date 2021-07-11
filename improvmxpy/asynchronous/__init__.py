@@ -65,7 +65,7 @@ class SetUp(object):
 
 
 class Account(object):
-    async def __init__(self):
+    def __init__(self):
         global tokenauth
         if len(tokenauth) != 35:
             raise NoToken(
@@ -99,7 +99,7 @@ class Account(object):
 
 
 class Domains(object):
-    async def __init__(self):
+    def __init__(self):
         global tokenauth
         if len(tokenauth) != 35:
             raise NoToken(
@@ -171,7 +171,7 @@ class Domains(object):
 
 
 class Aliases(object):
-    async def __init__(self):
+    def __init__(self):
         global tokenauth
         if len(tokenauth) != 35:
             raise NoToken(
@@ -233,7 +233,7 @@ class Aliases(object):
 
 
 class Logging(object):
-    async def __init__(self):
+    def __init__(self):
         global tokenauth
         if len(tokenauth) != 35:
             raise NoToken(
@@ -282,7 +282,7 @@ class Logging(object):
 
 
 class SMTPCredential(object):
-    async def __init__(self):
+    def __init__(self):
         global tokenauth
         if len(tokenauth) != 35:
             raise NoToken(
