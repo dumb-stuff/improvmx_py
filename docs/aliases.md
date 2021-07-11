@@ -47,6 +47,7 @@ Result pretty much like this
     "success": true
 }
 ```
+[API Documentation Reference](https://improvmx.com/api/#alias-list)
 ```py
 improvmxpy.Aliases().AddNewAlias()
 ```
@@ -54,3 +55,19 @@ This will add new alias need 2 argument
 - domain = Required the domain
 - alias = required The name infront of your domain
 - forward = required The email wanted to forward
+Result should be something like this
+```json
+{
+    "alias": {
+        "forward": "richard.hendricks@gmail.com", 
+        "alias": "richard", 
+        "id": 11
+    }, 
+    "success": true
+}
+```
+[API Documentation Reference](https://improvmx.com/api/#alias-add)
+```py
+improvmxpy.Aliases().UpdateAlias()
+```
+This will update alias's name and mail forward address
