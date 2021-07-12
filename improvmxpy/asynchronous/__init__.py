@@ -69,7 +69,7 @@ class Account(object):
 		global tokenauth
 		if len(tokenauth) != 35:
 			raise NoToken("We don't see any token that you input! You can do that by do call SetUp function")
-		await self.token = tokenauth
+		self.token = tokenauth
 
 	async def GetAccountDetail(self):
 		global tokenauth
@@ -223,16 +223,12 @@ class Logging(object):
 
 	async def GetAliasLog(self, domain, alias, logID=None):
 		if logID is not None:
-			r = await aiohttp.get(
-				f"{url}domains/{domain}/logs/aliases/{alias}",
-				headers={"next_cursor": logID},
-				auth=aiohttp.BasicAuth("api",self.token),
-			)
-			return await self.__CheckResponse(r)
-		r = await aiohttp.get(
-			f"{url}domains/{domain}/logs/aliases/{alias}", auth=aiohttp.BasicAuth("api",self.token)
-		)
-		return await self.__CheckResponse(r)
+			async with aiohttp.ClientSession() as session:
+				async with session.get(f"{url}domains/{domain}/logs/aliases/{alias}",headers={"next_cursor": logID},auth=aiohttp.BasicAuth("api",self.token),):
+					return await self.__CheckResponse(r)
+		async with aiohttp.ClientSession() as session:
+			async with session.get(f"{url}domains/{domain}/logs/aliases/{alias}", auth=aiohttp.BasicAuth("api",self.token)):
+				return await self.__CheckResponse(r)
 
 	async def __CheckResponse(self, r):
 		global tokenauth
@@ -260,10 +256,9 @@ class SMTPCredential(object):
 		await self.token = tokenauth
 
 	async def ListOfSMTPAccount(self, domain):
-		r = await aiohttp.get(
-			f"{url}domains/{domain}/credentials", auth=aiohttp.BasicAuth("api",self.token)
-		)
-		return await self.__CheckResponse(r)
+		async with aiohttp.ClientSession() as session:
+			async with session.get(f"{url}domains/{domain}/credentials", auth=aiohttp.BasicAuth("api",self.token)):
+				return await self.__CheckResponse(r)
 
 	async def AddNewSMTPAccount(self, domain, username, password):
 		r = await aiohttp.post(
