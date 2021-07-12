@@ -117,7 +117,7 @@ class Domains(object):
 
 	async def DomainDetail(self, domain):
 		async with aiohttp.ClientSession() as session:
-			async with session.get(f"{url}domains/{domain}", auth=aiohttp.BasicAuth("api",self.token))
+			async with session.get(f"{url}domains/{domain}", auth=aiohttp.BasicAuth("api",self.token)):
 				return await self.__CheckResponse(r)
 
 	async def EditDomain(self, domain: str, notify_email: str = "", whitelabel: str = ""):
