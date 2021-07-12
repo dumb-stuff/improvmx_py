@@ -1,3 +1,5 @@
+###### Badges
+[![Build Status](https://app.travis-ci.com/dumb-stuff/improvmx_py.svg?branch=main)](https://app.travis-ci.com/dumb-stuff/improvmx_py)
 # ImprovMX_PY Repository!
 Welcome to this repository!
 ## Instruction
