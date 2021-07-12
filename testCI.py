@@ -1,11 +1,12 @@
 try:
   import improvmxpy as a
 except ImportError:
-  import os;os.system("pip3 install improvmxpy");import improvmxpy as a
+  import os;os.system("pip3 install improvmxpy");
 else:
   pass
 finally:
   import  os
+  import improvmxpy as a
   a.SetUp(os.getenv("testtoken"))
   try:
     a.Account().GetAccountDetail()
