@@ -1,2 +1,2 @@
 language: python
-script: testCI.py
+script: python3 testCI.py
