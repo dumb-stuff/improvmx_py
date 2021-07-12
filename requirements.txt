@@ -4,6 +4,7 @@ appdirs
 async-timeout
 attrs
 black
+brotlipy
 cchardet
 certifi
 cffi

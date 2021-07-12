@@ -115,7 +115,7 @@ class Domains(object):
 
     def AddDomain(self, domain: str, notify_email: str = "", whitelabel: str = ""):
         r = requests.post(
-            f"{url}",
+            f"{url}domains",
             auth=("api", self.token),
             headers={
                 "domain": domain,
