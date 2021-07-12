@@ -1,5 +1,5 @@
 ###### Badges
-[![Build Status](https://app.travis-ci.com/dumb-stuff/improvmx_py.svg?branch=main)](https://app.travis-ci.com/dumb-stuff/improvmx_py)
+[![Build Status](https://app.travis-ci.com/dumb-stuff/improvmx_py.svg?branch=main)](https://app.travis-ci.com/dumb-stuff/improvmx_py) [![Documentation Status](https://readthedocs.org/projects/improvmx-api/badge/?version=latest)](https://improvmx-api.readthedocs.io/en/latest/?badge=latest)
 # ImprovMX_PY Repository!
 Welcome to this repository!
 ## Instruction
@@ -24,6 +24,6 @@ When I forget to add .gitignore to my local repository
 ##### Please Enjoy my stupidness at this URL
 https://github.com/dumb-stuff/improvmx_py/commit/28913ca8340355ffd75478c42b5e696fa12e328b
 ### DOCUMENTATION!!
-[![Documentation Status](https://readthedocs.org/projects/improvmx-api/badge/?version=latest)](https://improvmx-api.readthedocs.io/en/latest/?badge=latest)
+https://improvmxpy.tk
 # Dumb fact
 Every single lines of code in here is get blackked style.
