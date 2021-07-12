@@ -127,14 +127,14 @@ class Domains(object):
 
 	async def DeleteDomain(self, domain):
 		async with aiohttp.ClientSession() as session:
-			async with session.delete(f"{url}domains/{domain}", auth=aiohttp.BasicAuth("api",self.token))
+			async with session.delete(f"{url}domains/{domain}", auth=aiohttp.BasicAuth("api",self.token)):
 				if json.loads(r.content.decode())["success"] is True:
 					return True
 				return False
 
 	async def CheckMXDomain(self, domain: str):
 		async with aiohttp.ClientSession() as session:
-			async with session.get(f"{url}domains/{domain}/check", auth=aiohttp.BasicAuth("api",self.token))
+			async with session.get(f"{url}domains/{domain}/check", auth=aiohttp.BasicAuth("api",self.token)):
 				return await self.__CheckResponse(r)
 
 	async def __CheckResponse(self, r):
@@ -174,7 +174,7 @@ class Aliases(object):
 
 	async def GetDetailAlias(self, domain, alias):
 		async with aiohttp.ClientSession() as session:
-			async with session.get(f"{url}domains/{domain}/aliases/{alias}", auth=aiohttp.BasicAuth("api",self.token))
+			async with session.get(f"{url}domains/{domain}/aliases/{alias}", auth=aiohttp.BasicAuth("api",self.token)):
 				return await self.__CheckResponse(r)
 
 	async def UpdateAlias(self, domain, alias, forward):
@@ -261,26 +261,21 @@ class SMTPCredential(object):
 				return await self.__CheckResponse(r)
 
 	async def AddNewSMTPAccount(self, domain, username, password):
-		r = await aiohttp.post(
-			f"{url}domains/{domain}/credentials",
-			auth=aiohttp.BasicAuth("api",self.token),
-			headers={"username": username, "password": password},
-		)
-		return await self.__CheckResponse(r)
+		async with aiohttp.ClientSession() as session:
+			async with session.post(f"{url}domains/{domain}/credentials",auth=aiohttp.BasicAuth("api",self.token),headers={"username": username, "password": password},):
+				return await self.__CheckResponse(r)
 
 	async def ChangeSMTPUserPassword(self, domain, username, password):
-		r = await aiohttp.put(
-			f"{url}domains/{domain}/credentials/{username}",
-			auth=aiohttp.BasicAuth("api",self.token),
-			headers={"password": password},
-		)
-		return await self.__CheckResponse(r)
+		async with aiohttp.ClientSession() as session:
+			async with session.put(f"{url}domains/{domain}/credentials/{username}",auth=aiohttp.BasicAuth("api",self.token),headers={"password": password},):
+				return await self.__CheckResponse(r)
 
 	async def DeleteSMTPUser(self, domain, username):
-		r = await aiohttp.delete(f"{url}domains/{domain}/credentials/{username}")
-		if await r.json()["success"] == True:
-			return True
-		return False
+		async with aiohttp.ClientSession() as session:
+			async with session.delete(f"{url}domains/{domain}/credentials/{username}",auth=aiohttp.BasicAuth("api",self.token)) as r:
+				if await r.json()["success"] == True:
+					return True
+			return False
 
 	async def __CheckResponse(self, r):
 		global tokenauth
