@@ -79,7 +79,7 @@ class Account(object):
 
 	async def GetWhiteLabelDomain(self):
 		async with aiohttp.ClientSession() as session:
-			async with session.get(f"{url}account/whitelabels", auth=aiohttp.BasicAuth("api",self.token)aiohttp.BasicAuth):
+			async with session.get(f"{url}account/whitelabels", auth=aiohttp.BasicAuth("api",self.token)):
 				return await self.__CheckResponse(r)
 
 	async def __CheckResponse(self, r):
@@ -107,22 +107,22 @@ class Domains(object):
 
 	async def ListDomains(self, query: str = "", is_active: bool = "", limit=50, page=1):
 		async with aiohttp.ClientSession() as session:
-			async with session.get(f"{url}domains?q={query}&is_active={is_active}&limit={limit}&page={page}",auth=aiohttp.BasicAuth("api",self.token)aiohttp.BasicAuth):
+			async with session.get(f"{url}domains?q={query}&is_active={is_active}&limit={limit}&page={page}",auth=aiohttp.BasicAuth("api",self.token)):
 				return await self.__CheckResponse(r)
 
 	async def AddDomain(self, domain: str, notify_email: str = "", whitelabel: str = ""):
 		async with aiohttp.ClientSession() as session:
-			async with session.post(f"{url}/domains",auth=aiohttp.BasicAuth("api",self.token)aiohttp.BasicAuth,headers={"domain": domain,"notification_email": notify_email,"whitelabel": whitelabel}):
+			async with session.post(f"{url}/domains",auth=aiohttp.BasicAuth("api",self.token),headers={"domain": domain,"notification_email": notify_email,"whitelabel": whitelabel}):
 				return await self.__CheckResponse(r)
 
 	async def DomainDetail(self, domain):
 		async with aiohttp.ClientSession() as session:
-			async with session.get(f"{url}domains/{domain}", auth=aiohttp.BasicAuth("api",self.token)aiohttp.BasicAuth)
+			async with session.get(f"{url}domains/{domain}", auth=aiohttp.BasicAuth("api",self.token))
 				return await self.__CheckResponse(r)
 
 	async def EditDomain(self, domain: str, notify_email: str = "", whitelabel: str = ""):
 		async with aiohttp.ClientSession() as session:
-			async with session.put(f"{url}domains",auth=aiohttp.BasicAuth("api",self.token)aiohttp.BasicAuth,headers={"notification_email": notify_email, "whitelabel": whitelabel},):
+			async with session.put(f"{url}domains",auth=aiohttp.BasicAuth("api",self.token),headers={"notification_email": notify_email, "whitelabel": whitelabel},):
 				return await self.__CheckResponse(r)
 
 	async def DeleteDomain(self, domain):
