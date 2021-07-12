@@ -74,7 +74,7 @@ class Account(object):
 	async def GetAccountDetail(self):
 		global tokenauth
 		async with aiohttp.ClientSession() as session:
-			async with session.get(f"{url}account", auth=aiohttp.BasicAuth("api",self.token)aiohttp.BasicAuth):
+			async with session.get(f"{url}account", auth=aiohttp.BasicAuth("api",self.token)):
 				return await self.__CheckResponse(r)
 
 	async def GetWhiteLabelDomain(self):
