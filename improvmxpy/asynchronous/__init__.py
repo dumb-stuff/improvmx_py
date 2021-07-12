@@ -103,7 +103,7 @@ class Domains(object):
 		global tokenauth
 		if len(tokenauth) != 35:
 			raise NoToken("We don't see any token that you input! You can do that by call SetUp function!")
-		await self.token = tokenauth
+		self.token = tokenauth
 
 	async def ListDomains(self, query: str = "", is_active: bool = "", limit=50, page=1):
 		async with aiohttp.ClientSession() as session:
@@ -160,7 +160,7 @@ class Aliases(object):
 			raise NoToken(
 				"We don't see any token that you input! You can do that by call SetUp function!"
 			)
-		await self.token = tokenauth
+		self.token = tokenauth
 
 	async def AliasDomainList(self, domain: str, q: str = "", is_active: bool = "", page: str = "1"):
 		async with aiohttp.ClientSession() as session:
@@ -210,7 +210,7 @@ class Logging(object):
 			raise NoToken(
 				"We don't see any token that you input! You can do that by call SetUp function!"
 			)
-		await self.token = tokenauth
+		self.token = tokenauth
 
 	async def GetDomainLog(self, domain, logID=None):
 		if logID is not None:
@@ -253,7 +253,7 @@ class SMTPCredential(object):
 			raise NoToken(
 				"We don't see any token that you input! You can do that by call SetUp function!"
 			)
-		await self.token = tokenauth
+		self.token = tokenauth
 
 	async def ListOfSMTPAccount(self, domain):
 		async with aiohttp.ClientSession() as session:
