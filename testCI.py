@@ -10,7 +10,7 @@ finally:
     import os
     import improvmxpy as a
 
-    a.SetUp(os.getenv("testtoken".upper()))
+    a.SetUp(os.getenv("testtoken"))
     try:
         a.Account().GetAccountDetail()
         print("Publishing to pypi")
