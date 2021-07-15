@@ -4,7 +4,7 @@ classifiers = []
 
 setup(
     name="improvmxpy",
-    version="1.2",
+    version="1.3",
     description="A ImprovMX API Wrapper!",
     long_description=open("README.md").read()
     + "\n# Help \nPlease go to [Documentation](https://improvmxpy.tk)",
@@ -16,7 +16,8 @@ setup(
     classifiers=classifiers,
     keywords="Tools",
     packages=find_packages(),
-    install_requires=["requests", "aiohttp", "cChardet", "aiodns","brotlipy"],
+    install_requires=["requests", "aiohttp"],
+    extras_requires={"speed":["brotli","cchardet","aiodns"]}
     project_urls={
         "Documentation": "https://improvmxpy.tk",
         "Github Repository": "https://github.com/dumb-stuff/improvmx_py",
