@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
-from Cython.Build import cythonize
 classifiers = []
 
 setup(
     name="improvmxpy",
-    version="1.3",
+    version="1.4",
     description="A ImprovMX API Wrapper!",
     long_description=open("README.md").read()
     + "\n# Help \nPlease go to [Documentation](https://improvmxpy.tk)",
