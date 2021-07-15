@@ -16,7 +16,6 @@ on:
 
 jobs:
   deploy:
-    needs: test
     runs-on: windows-2016
 
     steps:
