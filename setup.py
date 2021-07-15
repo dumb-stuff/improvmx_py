@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+from Cython.Build import cythonize
 classifiers = []
 
 setup(
@@ -17,7 +17,7 @@ setup(
     keywords="Tools",
     packages=find_packages(),
     install_requires=["requests", "aiohttp"],
-    extras_requires={"speed":["brotli","cchardet","aiodns"]}
+    extras_require={"speed":["brotli","cchardet","aiodns"]},
     project_urls={
         "Documentation": "https://improvmxpy.tk",
         "Github Repository": "https://github.com/dumb-stuff/improvmx_py",
@@ -26,4 +26,5 @@ setup(
         "Discord server": "https://discord.gg/sHprKhGwg8",
         "Funny youtube clip": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     },
+
 )
