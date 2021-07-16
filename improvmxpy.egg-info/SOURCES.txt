@@ -1,7 +1,6 @@
 LICENSE
 MANIFEST.in
 README.md
-asyncimprovmx.c
 asyncimprovmx.py
 blockimprovmx.py
 requirements.txt
@@ -1024,9 +1023,11 @@ Lib/site-packages/yarl/_url.py
 Lib/site-packages/yarl-1.6.3.dist-info/top_level.txt
 Scripts/activate_this.py
 Scripts/chardetect-script.py
+improvmxpy/__init__.py
 improvmxpy.egg-info/PKG-INFO
 improvmxpy.egg-info/SOURCES.txt
 improvmxpy.egg-info/dependency_links.txt
-improvmxpy.egg-info/not-zip-safe
 improvmxpy.egg-info/requires.txt
 improvmxpy.egg-info/top_level.txt
+improvmxpy/asynchronous/__init__.py
+improvmxpy/block/__init__.py
