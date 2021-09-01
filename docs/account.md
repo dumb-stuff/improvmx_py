@@ -1,19 +1,14 @@
 # Account
 You already setup token. Do you?
-```
-```
+<br>
 If you aren't please go [back](./setup.md)
-```
-```
+<br>
 If you are let's go make some requests stuff!
-```
-```
+<br>
 So this we'll talk about how you can get account data from your token
-```
-```
+<br>
 If you already setup then you can do these instructions!
-```
-```
+<br>
 First You need to create instance of Account Because if you didn't you will get errors. Follow me through these steps!
 ```py
 import improvmxpy
@@ -26,8 +21,7 @@ impromxpy.Account().GetAccountDetail()
 ```
 This function don't need arguments
 It will return your account data in form of JSON! 
-```
-```
+<br>
 Something like
 ```json
 {
@@ -71,8 +65,7 @@ Something like
 }
 ```
 *It's not mine tho it is example from their api* [API Documentation Reference](https://improvmx.com/api/#account-details)
-```
-```
+<br>
 Let's move on!
 ```py
 impromxpy.Account().GetWhiteLabelDomain()
